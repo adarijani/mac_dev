@@ -204,8 +204,6 @@ echo installing netpbm
 brew install netpbm >&/dev/null
 echo installing nettle
 brew install nettle >&/dev/null
-echo installing nnn
-brew install nnn >&/dev/null
 echo installing node
 brew install node >&/dev/null
 echo installing openexr
