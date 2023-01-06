@@ -302,12 +302,18 @@ echo installing xz
 brew install xz >&/dev/null
 echo installing zstd
 brew install zstd >&/dev/null
+echo installing alacritty
+brew install alacritty >&/dev/null
 echo installing google-drive
 brew install google-drive >&/dev/null
+echo installing kitty
+brew install kitty >&/dev/null
 echo installing mactex
 brew install mactex >&/dev/null
 echo installing owncloud
 brew install owncloud >&/dev/null
+echo installing wezterm
+brew install wezterm >&/dev/null
 echo installing xquartz
 brew install xquartz >&/dev/null
 echo installing zoom
