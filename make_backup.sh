@@ -9,5 +9,5 @@ cp ~/.zshrc ./.zshrc
 cp ~/.vimrc ./.vimrc
 cp ~/.tmux.conf ./.tmux.conf
 cp ~/.config/kitty/kitty.conf ./.kitty.conf
-
+cp ~/.zprofile ./.zprofile
 

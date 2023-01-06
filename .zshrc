@@ -5,7 +5,6 @@ CDPATH=$HOME:$HOME/sciebo:$HOME/sciebo/math/
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
