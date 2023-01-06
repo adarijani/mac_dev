@@ -5,9 +5,9 @@
 chmod +x ./backup.sh
 
 # backing up dot files that exist in the home directory
-cp ~/.zshrc ./zshrc
-cp ~/.vimrc ./vimrc
-cp ~/.tmux.conf ./tmux.conf
-cp ~/.config/kitty/kitty.conf ./kitty.conf
+cp ~/.zshrc ./.zshrc
+cp ~/.vimrc ./.vimrc
+cp ~/.tmux.conf ./.tmux.conf
+cp ~/.config/kitty/kitty.conf ./.kitty.conf
 
 
