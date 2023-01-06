@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# brew update; brew upgrade; brew cleanup
+brew update
+brew upgrade
+brew cleanup
 # saving all formula and casks in backup.sh and making it executable
 /opt/homebrew/bin/brew list | awk '{print "echo installing "  $0 "\n" "brew install " $0 " >&/dev/null"}' > ./backup.sh
 chmod +x ./backup.sh
