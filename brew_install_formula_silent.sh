@@ -1,350 +1,318 @@
-installing aom
+echo installing aom
 brew install aom >&/dev/null
-installing aspell
+echo installing aspell
 brew install aspell >&/dev/null
-installing bash-completion
+echo installing bash-completion
 brew install bash-completion >&/dev/null
-installing bat
+echo installing bat
 brew install bat >&/dev/null
-installing bdw-gc
+echo installing bdw-gc
 brew install bdw-gc >&/dev/null
-installing berkeley-db
+echo installing berkeley-db
 brew install berkeley-db >&/dev/null
-installing boost
+echo installing boost
 brew install boost >&/dev/null
-installing brotli
+echo installing brotli
 brew install brotli >&/dev/null
-installing c-ares
+echo installing c-ares
 brew install c-ares >&/dev/null
-installing ca-certificates
+echo installing ca-certificates
 brew install ca-certificates >&/dev/null
-installing cairo
+echo installing cairo
 brew install cairo >&/dev/null
-installing cheat
+echo installing cheat
 brew install cheat >&/dev/null
-installing cloc
+echo installing cloc
 brew install cloc >&/dev/null
-installing coreutils
+echo installing coreutils
 brew install coreutils >&/dev/null
-installing detox
+echo installing detox
 brew install detox >&/dev/null
-installing docbook
+echo installing docbook
 brew install docbook >&/dev/null
-installing docbook-xsl
+echo installing docbook-xsl
 brew install docbook-xsl >&/dev/null
-installing exa
+echo installing exa
 brew install exa >&/dev/null
-installing figlet
+echo installing figlet
 brew install figlet >&/dev/null
-installing fontconfig
+echo installing fontconfig
 brew install fontconfig >&/dev/null
-installing freetype
+echo installing freetype
 brew install freetype >&/dev/null
-installing fribidi
+echo installing fribidi
 brew install fribidi >&/dev/null
-installing fzf
+echo installing fzf
 brew install fzf >&/dev/null
-installing gd
+echo installing gd
 brew install gd >&/dev/null
-installing gdbm
+echo installing gdbm
 brew install gdbm >&/dev/null
-installing gdk-pixbuf
+echo installing gdk-pixbuf
 brew install gdk-pixbuf >&/dev/null
-installing gettext
+echo installing gettext
 brew install gettext >&/dev/null
-installing ghostscript
+echo installing ghostscript
 brew install ghostscript >&/dev/null
-installing giflib
+echo installing giflib
 brew install giflib >&/dev/null
-installing git
+echo installing git
 brew install git >&/dev/null
-installing glib
+echo installing glib
 brew install glib >&/dev/null
-installing gmp
+echo installing gmp
 brew install gmp >&/dev/null
-installing gnu-getopt
+echo installing gnu-getopt
 brew install gnu-getopt >&/dev/null
-installing gnu-sed
+echo installing gnu-sed
 brew install gnu-sed >&/dev/null
-installing gnutls
+echo installing gnutls
 brew install gnutls >&/dev/null
-installing graphite2
+echo installing graphite2
 brew install graphite2 >&/dev/null
-installing graphviz
+echo installing graphviz
 brew install graphviz >&/dev/null
-installing gts
+echo installing gts
 brew install gts >&/dev/null
-installing guile
+echo installing guile
 brew install guile >&/dev/null
-installing harfbuzz
+echo installing harfbuzz
 brew install harfbuzz >&/dev/null
-installing highway
+echo installing highway
 brew install highway >&/dev/null
-installing htop
+echo installing htop
 brew install htop >&/dev/null
-installing icu4c
+echo installing icu4c
 brew install icu4c >&/dev/null
-installing imagemagick
+echo installing imagemagick
 brew install imagemagick >&/dev/null
-installing imath
+echo installing imath
 brew install imath >&/dev/null
-installing jasper
+echo installing jasper
 brew install jasper >&/dev/null
-installing jbig2dec
+echo installing jbig2dec
 brew install jbig2dec >&/dev/null
-installing jpeg-turbo
+echo installing jpeg-turbo
 brew install jpeg-turbo >&/dev/null
-installing jpeg-xl
+echo installing jpeg-xl
 brew install jpeg-xl >&/dev/null
-installing libavif
+echo installing libavif
 brew install libavif >&/dev/null
-installing libde265
+echo installing libde265
 brew install libde265 >&/dev/null
-installing libevent
+echo installing libevent
 brew install libevent >&/dev/null
-installing libgcrypt
+echo installing libgcrypt
 brew install libgcrypt >&/dev/null
-installing libgpg-error
+echo installing libgpg-error
 brew install libgpg-error >&/dev/null
-installing libheif
+echo installing libheif
 brew install libheif >&/dev/null
-installing libice
+echo installing libice
 brew install libice >&/dev/null
-installing libiconv
+echo installing libiconv
 brew install libiconv >&/dev/null
-installing libidn
+echo installing libidn
 brew install libidn >&/dev/null
-installing libidn2
+echo installing libidn2
 brew install libidn2 >&/dev/null
-installing liblqr
+echo installing liblqr
 brew install liblqr >&/dev/null
-installing libnghttp2
+echo installing libnghttp2
 brew install libnghttp2 >&/dev/null
-installing libomp
+echo installing libomp
 brew install libomp >&/dev/null
-installing libpng
+echo installing libpng
 brew install libpng >&/dev/null
-installing libpthread-stubs
+echo installing libpthread-stubs
 brew install libpthread-stubs >&/dev/null
-installing libraw
+echo installing libraw
 brew install libraw >&/dev/null
-installing librsvg
+echo installing librsvg
 brew install librsvg >&/dev/null
-installing libsm
+echo installing libsm
 brew install libsm >&/dev/null
-installing libssh2
+echo installing libssh2
 brew install libssh2 >&/dev/null
-installing libtasn1
+echo installing libtasn1
 brew install libtasn1 >&/dev/null
-installing libtiff
+echo installing libtiff
 brew install libtiff >&/dev/null
-installing libtool
+echo installing libtool
 brew install libtool >&/dev/null
-installing libunistring
+echo installing libunistring
 brew install libunistring >&/dev/null
-installing libuv
+echo installing libuv
 brew install libuv >&/dev/null
-installing libvmaf
+echo installing libvmaf
 brew install libvmaf >&/dev/null
-installing libx11
+echo installing libx11
 brew install libx11 >&/dev/null
-installing libxau
+echo installing libxau
 brew install libxau >&/dev/null
-installing libxaw
+echo installing libxaw
 brew install libxaw >&/dev/null
-installing libxcb
+echo installing libxcb
 brew install libxcb >&/dev/null
-installing libxdmcp
+echo installing libxdmcp
 brew install libxdmcp >&/dev/null
-installing libxext
+echo installing libxext
 brew install libxext >&/dev/null
-installing libxft
+echo installing libxft
 brew install libxft >&/dev/null
-installing libxinerama
+echo installing libxinerama
 brew install libxinerama >&/dev/null
-installing libxmu
+echo installing libxmu
 brew install libxmu >&/dev/null
-installing libxpm
+echo installing libxpm
 brew install libxpm >&/dev/null
-installing libxrender
+echo installing libxrender
 brew install libxrender >&/dev/null
-installing libxt
+echo installing libxt
 brew install libxt >&/dev/null
-installing libyaml
+echo installing libyaml
 brew install libyaml >&/dev/null
-installing libzip
+echo installing libzip
 brew install libzip >&/dev/null
-installing little-cms2
+echo installing little-cms2
 brew install little-cms2 >&/dev/null
-installing log4shib
+echo installing log4shib
 brew install log4shib >&/dev/null
-installing lsd
+echo installing lsd
 brew install lsd >&/dev/null
-installing lua
+echo installing lua
 brew install lua >&/dev/null
-installing lz4
+echo installing lz4
 brew install lz4 >&/dev/null
-installing lzo
+echo installing lzo
 brew install lzo >&/dev/null
-installing m4
+echo installing m4
 brew install m4 >&/dev/null
-installing make
+echo installing make
 brew install make >&/dev/null
-installing midnight-commander
+echo installing midnight-commander
 brew install midnight-commander >&/dev/null
-installing most
+echo installing most
 brew install most >&/dev/null
-installing mpdecimal
+echo installing mpdecimal
 brew install mpdecimal >&/dev/null
-installing ncurses
+echo installing ncurses
 brew install ncurses >&/dev/null
-installing neofetch
+echo installing neofetch
 brew install neofetch >&/dev/null
-installing netpbm
+echo installing netpbm
 brew install netpbm >&/dev/null
-installing nettle
+echo installing nettle
 brew install nettle >&/dev/null
-installing nnn
+echo installing nnn
 brew install nnn >&/dev/null
-installing node
+echo installing node
 brew install node >&/dev/null
-installing openexr
+echo installing openexr
 brew install openexr >&/dev/null
-installing openjdk
+echo installing openjdk
 brew install openjdk >&/dev/null
-installing openjpeg
+echo installing openjpeg
 brew install openjpeg >&/dev/null
-installing openssl@1.1
+echo installing openssl@1.1
 brew install openssl@1.1 >&/dev/null
-installing p11-kit
+echo installing p11-kit
 brew install p11-kit >&/dev/null
-installing pandoc
+echo installing pandoc
 brew install pandoc >&/dev/null
-installing pango
+echo installing pango
 brew install pango >&/dev/null
-installing pcre2
+echo installing pcre2
 brew install pcre2 >&/dev/null
-installing perl
+echo installing perl
 brew install perl >&/dev/null
-installing pip-completion
+echo installing pip-completion
 brew install pip-completion >&/dev/null
-installing pixman
+echo installing pixman
 brew install pixman >&/dev/null
-installing pkg-config
+echo installing pkg-config
 brew install pkg-config >&/dev/null
-installing popt
+echo installing popt
 brew install popt >&/dev/null
-installing pstree
+echo installing pstree
 brew install pstree >&/dev/null
-installing pygments
+echo installing pygments
 brew install pygments >&/dev/null
-installing readline
+echo installing readline
 brew install readline >&/dev/null
-installing ruby
+echo installing ruby
 brew install ruby >&/dev/null
-installing rxvt-unicode
+echo installing rxvt-unicode
 brew install rxvt-unicode >&/dev/null
-installing s-lang
+echo installing s-lang
 brew install s-lang >&/dev/null
-installing screen
+echo installing screen
 brew install screen >&/dev/null
-installing screenresolution
+echo installing screenresolution
 brew install screenresolution >&/dev/null
-installing shared-mime-info
+echo installing shared-mime-info
 brew install shared-mime-info >&/dev/null
-installing six
+echo installing six
 brew install six >&/dev/null
-installing sqlite
+echo installing sqlite
 brew install sqlite >&/dev/null
-installing task
+echo installing task
 brew install task >&/dev/null
-installing taskwarrior-tui
+echo installing taskwarrior-tui
 brew install taskwarrior-tui >&/dev/null
-installing tldr
+echo installing tldr
 brew install tldr >&/dev/null
-installing tmux
+echo installing tmux
 brew install tmux >&/dev/null
-installing tree
+echo installing tree
 brew install tree >&/dev/null
-installing unbound
+echo installing unbound
 brew install unbound >&/dev/null
-installing utf8proc
+echo installing utf8proc
 brew install utf8proc >&/dev/null
-installing webp
+echo installing webp
 brew install webp >&/dev/null
-installing x265
+echo installing x265
 brew install x265 >&/dev/null
-installing xerces-c
+echo installing xerces-c
 brew install xerces-c >&/dev/null
-installing xml-coreutils
+echo installing xml-coreutils
 brew install xml-coreutils >&/dev/null
-installing xml-security-c
+echo installing xml-security-c
 brew install xml-security-c >&/dev/null
-installing xml-tooling-c
+echo installing xml-tooling-c
 brew install xml-tooling-c >&/dev/null
-installing xml2
+echo installing xml2
 brew install xml2 >&/dev/null
-installing xmlcatmgr
+echo installing xmlcatmgr
 brew install xmlcatmgr >&/dev/null
-installing xmlformat
+echo installing xmlformat
 brew install xmlformat >&/dev/null
-installing xmlrpc-c
+echo installing xmlrpc-c
 brew install xmlrpc-c >&/dev/null
-installing xmlsectool
+echo installing xmlsectool
 brew install xmlsectool >&/dev/null
-installing xmlstarlet
+echo installing xmlstarlet
 brew install xmlstarlet >&/dev/null
-installing xmlto
+echo installing xmlto
 brew install xmlto >&/dev/null
-installing xmltoman
+echo installing xmltoman
 brew install xmltoman >&/dev/null
-installing xorgproto
+echo installing xorgproto
 brew install xorgproto >&/dev/null
-installing xz
+echo installing xz
 brew install xz >&/dev/null
-installing zstd
+echo installing zstd
 brew install zstd >&/dev/null
-installing alacritty
-brew install alacritty >&/dev/null
-installing anydesk
-brew install anydesk >&/dev/null
-installing calibre
-brew install calibre >&/dev/null
-installing firefox
-brew install firefox >&/dev/null
-installing font-hack-nerd-font
-brew install font-hack-nerd-font >&/dev/null
-installing free-download-manager
-brew install free-download-manager >&/dev/null
-installing gimp
-brew install gimp >&/dev/null
-installing google-chrome
-brew install google-chrome >&/dev/null
-installing google-drive
+echo installing google-drive
 brew install google-drive >&/dev/null
-installing iterm2
+echo installing iterm2
 brew install iterm2 >&/dev/null
-installing kitty
-brew install kitty >&/dev/null
-installing mactex
+echo installing mactex
 brew install mactex >&/dev/null
-installing obs
-brew install obs >&/dev/null
-installing owncloud
+echo installing owncloud
 brew install owncloud >&/dev/null
-installing telegram-desktop
-brew install telegram-desktop >&/dev/null
-installing visual-studio-code
-brew install visual-studio-code >&/dev/null
-installing vlc
-brew install vlc >&/dev/null
-installing warp
-brew install warp >&/dev/null
-installing wezterm
-brew install wezterm >&/dev/null
-installing whatsapp
-brew install whatsapp >&/dev/null
-installing xquartz
+echo installing xquartz
 brew install xquartz >&/dev/null
-installing zoom
+echo installing zoom
 brew install zoom >&/dev/null
