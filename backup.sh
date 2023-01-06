@@ -304,8 +304,6 @@ echo installing zstd
 brew install zstd >&/dev/null
 echo installing google-drive
 brew install google-drive >&/dev/null
-echo installing iterm2
-brew install iterm2 >&/dev/null
 echo installing mactex
 brew install mactex >&/dev/null
 echo installing owncloud
