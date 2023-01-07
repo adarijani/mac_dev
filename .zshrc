@@ -9,16 +9,9 @@ FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 export ZSH="$HOME/.oh-my-zsh"
 # Changing some environment variables:-)
 export PAGER="most"
-# tmux aliases
-alias tmux="tmux -2"
-alias ta="tmux attach -t"
-# ssh aliases
-alias ksshrwth="kitty +kitten ssh -l db108856 login18-1.hpc.itc.rwth-aachen.de"
-alias ksshgrwth="kitty +kitten ssh -X -l db108856 login18-1.hpc.itc.rwth-aachen.de"
-alias sshrwth="ssh -l db108856 login18-1.hpc.itc.rwth-aachen.de"
-alias sshgrwth="ssh -X -l db108856 login18-1.hpc.itc.rwth-aachen.de"
-# taskwarrior aliases
-alias tt="taskwarrior-tui"
+
+
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -87,11 +80,11 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(git)
 plugins=(zsh-syntax-highlighting
-	 git
-	 rust
-	 fzf
-	 aliases
-	)
+    git
+    rust
+    fzf
+    aliases
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -121,10 +114,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2>/dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
@@ -137,6 +129,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
