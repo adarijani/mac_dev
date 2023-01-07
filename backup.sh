@@ -236,6 +236,8 @@ echo installing pstree
 brew install pstree >&/dev/null
 echo installing pygments
 brew install pygments >&/dev/null
+echo installing python@3.11
+brew install python@3.11 >&/dev/null
 echo installing readline
 brew install readline >&/dev/null
 echo installing ruby
@@ -252,6 +254,8 @@ echo installing shared-mime-info
 brew install shared-mime-info >&/dev/null
 echo installing six
 brew install six >&/dev/null
+echo installing speedtest-cli
+brew install speedtest-cli >&/dev/null
 echo installing sqlite
 brew install sqlite >&/dev/null
 echo installing task
