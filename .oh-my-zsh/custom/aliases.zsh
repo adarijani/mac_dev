@@ -10,7 +10,6 @@ alias ksshgrwth="kitty +kitten ssh -X -l db108856 login18-1.hpc.itc.rwth-aachen.
 alias sshrwth="ssh -l db108856 login18-1.hpc.itc.rwth-aachen.de"
 alias sshgrwth="ssh -X -l db108856 login18-1.hpc.itc.rwth-aachen.de"
 # tmux aliases
-alias tmux="tmux -2"
 alias ta="tmux attach -t"
 # taskwarrior aliases
 alias tt="taskwarrior-tui"

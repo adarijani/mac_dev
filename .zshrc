@@ -9,7 +9,7 @@ FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 export ZSH="$HOME/.oh-my-zsh"
 # Changing some environment variables:-)
 export PAGER="most"
-
+#export TERM="xterm-256color"
 
 
 # Set name of the theme to load --- if set to "random", it will
