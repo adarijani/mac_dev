@@ -22,10 +22,16 @@ echo installing cairo
 brew install cairo >&/dev/null
 echo installing cheat
 brew install cheat >&/dev/null
+echo installing cjson
+brew install cjson >&/dev/null
 echo installing cloc
 brew install cloc >&/dev/null
+echo installing cmocka
+brew install cmocka >&/dev/null
 echo installing coreutils
 brew install coreutils >&/dev/null
+echo installing dav1d
+brew install dav1d >&/dev/null
 echo installing detox
 brew install detox >&/dev/null
 echo installing docbook
@@ -34,12 +40,18 @@ echo installing docbook-xsl
 brew install docbook-xsl >&/dev/null
 echo installing exa
 brew install exa >&/dev/null
+echo installing ffmpeg
+brew install ffmpeg >&/dev/null
 echo installing figlet
 brew install figlet >&/dev/null
+echo installing flac
+brew install flac >&/dev/null
 echo installing fontconfig
 brew install fontconfig >&/dev/null
 echo installing freetype
 brew install freetype >&/dev/null
+echo installing frei0r
+brew install frei0r >&/dev/null
 echo installing fribidi
 brew install fribidi >&/dev/null
 echo installing fzf
@@ -96,8 +108,20 @@ echo installing jpeg-turbo
 brew install jpeg-turbo >&/dev/null
 echo installing jpeg-xl
 brew install jpeg-xl >&/dev/null
+echo installing lame
+brew install lame >&/dev/null
+echo installing leptonica
+brew install leptonica >&/dev/null
+echo installing libarchive
+brew install libarchive >&/dev/null
+echo installing libass
+brew install libass >&/dev/null
 echo installing libavif
 brew install libavif >&/dev/null
+echo installing libb2
+brew install libb2 >&/dev/null
+echo installing libbluray
+brew install libbluray >&/dev/null
 echo installing libde265
 brew install libde265 >&/dev/null
 echo installing libevent
@@ -120,6 +144,8 @@ echo installing liblqr
 brew install liblqr >&/dev/null
 echo installing libnghttp2
 brew install libnghttp2 >&/dev/null
+echo installing libogg
+brew install libogg >&/dev/null
 echo installing libomp
 brew install libomp >&/dev/null
 echo installing libpng
@@ -128,10 +154,20 @@ echo installing libpthread-stubs
 brew install libpthread-stubs >&/dev/null
 echo installing libraw
 brew install libraw >&/dev/null
+echo installing librist
+brew install librist >&/dev/null
 echo installing librsvg
 brew install librsvg >&/dev/null
+echo installing libsamplerate
+brew install libsamplerate >&/dev/null
 echo installing libsm
 brew install libsm >&/dev/null
+echo installing libsndfile
+brew install libsndfile >&/dev/null
+echo installing libsodium
+brew install libsodium >&/dev/null
+echo installing libsoxr
+brew install libsoxr >&/dev/null
 echo installing libssh2
 brew install libssh2 >&/dev/null
 echo installing libtasn1
@@ -140,12 +176,20 @@ echo installing libtiff
 brew install libtiff >&/dev/null
 echo installing libtool
 brew install libtool >&/dev/null
+echo installing libunibreak
+brew install libunibreak >&/dev/null
 echo installing libunistring
 brew install libunistring >&/dev/null
 echo installing libuv
 brew install libuv >&/dev/null
+echo installing libvidstab
+brew install libvidstab >&/dev/null
 echo installing libvmaf
 brew install libvmaf >&/dev/null
+echo installing libvorbis
+brew install libvorbis >&/dev/null
+echo installing libvpx
+brew install libvpx >&/dev/null
 echo installing libx11
 brew install libx11 >&/dev/null
 echo installing libxau
@@ -190,12 +234,16 @@ echo installing m4
 brew install m4 >&/dev/null
 echo installing make
 brew install make >&/dev/null
+echo installing mbedtls
+brew install mbedtls >&/dev/null
 echo installing midnight-commander
 brew install midnight-commander >&/dev/null
 echo installing most
 brew install most >&/dev/null
 echo installing mpdecimal
 brew install mpdecimal >&/dev/null
+echo installing mpg123
+brew install mpg123 >&/dev/null
 echo installing ncurses
 brew install ncurses >&/dev/null
 echo installing neofetch
@@ -206,6 +254,8 @@ echo installing nettle
 brew install nettle >&/dev/null
 echo installing node
 brew install node >&/dev/null
+echo installing opencore-amr
+brew install opencore-amr >&/dev/null
 echo installing openexr
 brew install openexr >&/dev/null
 echo installing openjdk
@@ -214,6 +264,8 @@ echo installing openjpeg
 brew install openjpeg >&/dev/null
 echo installing openssl@1.1
 brew install openssl@1.1 >&/dev/null
+echo installing opus
+brew install opus >&/dev/null
 echo installing p11-kit
 brew install p11-kit >&/dev/null
 echo installing pandoc
@@ -238,8 +290,12 @@ echo installing pygments
 brew install pygments >&/dev/null
 echo installing python@3.11
 brew install python@3.11 >&/dev/null
+echo installing rav1e
+brew install rav1e >&/dev/null
 echo installing readline
 brew install readline >&/dev/null
+echo installing rubberband
+brew install rubberband >&/dev/null
 echo installing ruby
 brew install ruby >&/dev/null
 echo installing rxvt-unicode
@@ -250,18 +306,30 @@ echo installing screen
 brew install screen >&/dev/null
 echo installing screenresolution
 brew install screenresolution >&/dev/null
+echo installing sdl2
+brew install sdl2 >&/dev/null
 echo installing shared-mime-info
 brew install shared-mime-info >&/dev/null
 echo installing six
 brew install six >&/dev/null
+echo installing snappy
+brew install snappy >&/dev/null
 echo installing speedtest-cli
 brew install speedtest-cli >&/dev/null
+echo installing speex
+brew install speex >&/dev/null
 echo installing sqlite
 brew install sqlite >&/dev/null
+echo installing srt
+brew install srt >&/dev/null
 echo installing task
 brew install task >&/dev/null
 echo installing taskwarrior-tui
 brew install taskwarrior-tui >&/dev/null
+echo installing tesseract
+brew install tesseract >&/dev/null
+echo installing theora
+brew install theora >&/dev/null
 echo installing tldr
 brew install tldr >&/dev/null
 echo installing tmux
@@ -274,6 +342,8 @@ echo installing utf8proc
 brew install utf8proc >&/dev/null
 echo installing webp
 brew install webp >&/dev/null
+echo installing x264
+brew install x264 >&/dev/null
 echo installing x265
 brew install x265 >&/dev/null
 echo installing xerces-c
@@ -302,8 +372,14 @@ echo installing xmltoman
 brew install xmltoman >&/dev/null
 echo installing xorgproto
 brew install xorgproto >&/dev/null
+echo installing xvid
+brew install xvid >&/dev/null
 echo installing xz
 brew install xz >&/dev/null
+echo installing zeromq
+brew install zeromq >&/dev/null
+echo installing zimg
+brew install zimg >&/dev/null
 echo installing zstd
 brew install zstd >&/dev/null
 echo installing alacritty
@@ -316,6 +392,8 @@ echo installing mactex
 brew install mactex >&/dev/null
 echo installing owncloud
 brew install owncloud >&/dev/null
+echo installing visual-studio-code
+brew install visual-studio-code >&/dev/null
 echo installing wezterm
 brew install wezterm >&/dev/null
 echo installing xquartz
