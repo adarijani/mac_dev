@@ -9,6 +9,7 @@ brew cleanup
 chmod +x ./backup.sh
 
 # backing up dot files that exist in the home directory
+cp -Rf ~/.oh-my-zsh ./.oh-my-zsh
 cp ~/.zshrc ./.zshrc
 cp ~/.vimrc ./.vimrc
 cp ~/.tmux.conf ./.tmux.conf

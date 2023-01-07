@@ -7,7 +7,6 @@ CDPATH=$HOME:$HOME/sciebo:$HOME/sciebo/math/
 FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
 # Changing some environment variables:-)
 export PAGER="most"
 # tmux aliases
@@ -91,6 +90,7 @@ plugins=(zsh-syntax-highlighting
 	 git
 	 rust
 	 fzf
+	 aliases
 	)
 
 source $ZSH/oh-my-zsh.sh
