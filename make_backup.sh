@@ -18,4 +18,5 @@ cp ~/.zshrc ./.zshrc >&/dev/null
 cp ~/.vimrc ./.vimrc >&/dev/null
 cp ~/.tmux.conf ./.tmux.conf >&/dev/null
 cp ~/.config/kitty/kitty.conf ./.kitty.conf >&/dev/null
+cp ~/.alacritty.yml ./.alacritty.yml >&/dev/null
 cp ~/.zprofile ./.zprofile >&/dev/null
