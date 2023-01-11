@@ -78,6 +78,8 @@ echo installing gnu-getopt
 brew install gnu-getopt >&/dev/null
 echo installing gnu-sed
 brew install gnu-sed >&/dev/null
+echo installing gnuplot
+brew install gnuplot >&/dev/null
 echo installing gnutls
 brew install gnutls >&/dev/null
 echo installing graphite2
@@ -122,6 +124,8 @@ echo installing libb2
 brew install libb2 >&/dev/null
 echo installing libbluray
 brew install libbluray >&/dev/null
+echo installing libcerf
+brew install libcerf >&/dev/null
 echo installing libde265
 brew install libde265 >&/dev/null
 echo installing libevent
@@ -290,6 +294,8 @@ echo installing pygments
 brew install pygments >&/dev/null
 echo installing python@3.11
 brew install python@3.11 >&/dev/null
+echo installing qt@5
+brew install qt@5 >&/dev/null
 echo installing rav1e
 brew install rav1e >&/dev/null
 echo installing readline
@@ -352,10 +358,6 @@ echo installing xml-coreutils
 brew install xml-coreutils >&/dev/null
 echo installing xml-security-c
 brew install xml-security-c >&/dev/null
-echo installing xml-tooling-c
-brew install xml-tooling-c >&/dev/null
-echo installing xml2
-brew install xml2 >&/dev/null
 echo installing xmlcatmgr
 brew install xmlcatmgr >&/dev/null
 echo installing xmlformat
@@ -392,6 +394,8 @@ echo installing mactex
 brew install mactex >&/dev/null
 echo installing owncloud
 brew install owncloud >&/dev/null
+echo installing telegram-desktop
+brew install telegram-desktop >&/dev/null
 echo installing visual-studio-code
 brew install visual-studio-code >&/dev/null
 echo installing wezterm

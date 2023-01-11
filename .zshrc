@@ -83,6 +83,7 @@ plugins=(zsh-syntax-highlighting
     git
     rust
     fzf
+    npm
     aliases
 )
 
