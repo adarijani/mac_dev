@@ -10,10 +10,10 @@ chmod +x ./backup.sh >&/dev/null
 
 # backing up dot files that exist in the home directory
 # backing up oh-my-zsh files
-rm -rf .oh-my-zsh >&/dev/null
-mkdir .oh-my-zsh >&/dev/null
-mkdir .oh-my-zsh/custom >&/dev/null
-cp ~/.oh-my-zsh/custom/aliases.zsh ./.oh-my-zsh/custom/aliases.zsh >&/dev/null
+#rm -rf ./.oh-my-zsh >&/dev/null
+#mkdir .oh-my-zsh >&/dev/null
+#mkdir .oh-my-zsh/custom >&/dev/null
+cp ~/.oh-my-zsh/custom/aliases.zsh ./aliases.zsh >&/dev/null
 cp ~/.zshrc ./.zshrc >&/dev/null
 cp ~/.vimrc ./.vimrc >&/dev/null
 cp ~/.tmux.conf ./.tmux.conf >&/dev/null

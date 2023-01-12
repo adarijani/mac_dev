@@ -378,6 +378,8 @@ echo installing xvid
 brew install xvid >&/dev/null
 echo installing xz
 brew install xz >&/dev/null
+echo installing yt-dlp
+brew install yt-dlp >&/dev/null
 echo installing zeromq
 brew install zeromq >&/dev/null
 echo installing zimg
@@ -386,6 +388,8 @@ echo installing zstd
 brew install zstd >&/dev/null
 echo installing alacritty
 brew install alacritty >&/dev/null
+echo installing clipgrab
+brew install clipgrab >&/dev/null
 echo installing google-drive
 brew install google-drive >&/dev/null
 echo installing kitty
@@ -394,10 +398,10 @@ echo installing mactex
 brew install mactex >&/dev/null
 echo installing owncloud
 brew install owncloud >&/dev/null
-echo installing telegram-desktop
-brew install telegram-desktop >&/dev/null
 echo installing visual-studio-code
 brew install visual-studio-code >&/dev/null
+echo installing vlc
+brew install vlc >&/dev/null
 echo installing wezterm
 brew install wezterm >&/dev/null
 echo installing xquartz
