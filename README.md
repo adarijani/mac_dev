@@ -8,7 +8,7 @@
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/bare_minimum.sh)"
 ```
-## Installing the necessary formula and casks
+## Installing some formula and casks
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/backup.sh)"
 ```
