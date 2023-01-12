@@ -18,7 +18,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 Config files in the right place
 ```sh
+rm -rf ./mac_dec >&/dev/null
 git clone https://github.com/adarijani/mac_dev.git
 cd ./mac_dev
 ./config.sh
+rm -rf ./mac_dec >&/dev/null
 ```
