@@ -1,12 +1,8 @@
 # zero_to_daily_driver
 
-## Installing brew and making it visible to the shell 
+## Installing brew and making it visible to the shell & installing -h-my-zsh
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/zero_to_daily_driver/main/install_brew.sh)"
-```
-## Installing the oh-my-zsh framework
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/zero_to_daily_driver/main/brew_omz.sh)"
 ```
 ## Installing the necessary formula and casks
 ```sh
