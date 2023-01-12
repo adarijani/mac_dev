@@ -12,7 +12,7 @@ $BREW cleanup
 # saving all formula and casks in backup.sh and making it executable
 # finding awk path
 AWK=(`where awk`)
-$BREW list | $AWK '{print "echo installing "  $0 "\n" "brew install " $0 " >&/dev/null"}' >>./test.sh
+$BREW list | $AWK '{print "echo installing "  $0 "\n" "brew install " $0 " >&/dev/null"}' >>./backup.sh
 # finding chmod path
 CHMOD=(`where chmod`)
 $CHMOD +x ./backup.sh >&/dev/null
