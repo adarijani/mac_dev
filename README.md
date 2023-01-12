@@ -2,5 +2,5 @@
 
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/bare_minimum.sh)"
+git clone https://github.com/adarijani/mac_dev.git
 ```
