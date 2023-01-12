@@ -19,5 +19,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 Config files in the right place
 ```sh
 git clone https://github.com/adarijani/mac_dev.git
-./config.sh
+./mac_dev/config.sh
 ```
