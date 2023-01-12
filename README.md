@@ -1,4 +1,4 @@
-# zero_to_daily_driver
+# mac_dev
 
 ## brew and omz
 
