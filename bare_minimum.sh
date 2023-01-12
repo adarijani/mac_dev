@@ -10,6 +10,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # installing oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" >&/dev/null
 # installing zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting >&/dev/null
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting >&/dev/null
 printf "${GREEN}CLOSE AND OPEN YOUR TERMINAL TO FINISH INSTALLATION${NC}\n"
 exec zsh
