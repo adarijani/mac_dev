@@ -28,3 +28,8 @@ cd ./mac_dev >&/dev/null
 cd .. >&/dev/null
 rm -rf ./mac_dec >&/dev/null >&/dev/null
 ```
+
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/backup.sh)"
+```
