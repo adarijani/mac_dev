@@ -22,5 +22,6 @@ rm -rf ./mac_dec >&/dev/null
 git clone https://github.com/adarijani/mac_dev.git
 cd ./mac_dev
 ./config.sh
+cd ..
 rm -rf ./mac_dec >&/dev/null
 ```
