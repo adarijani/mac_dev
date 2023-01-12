@@ -8,7 +8,8 @@ printf "${GREEN}INSTALLING BREW${NC}\n"
 echo '# Set PATH, MANPATH, etc., for Homebrew.' >$HOME/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>$HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
-printf "${GREEN}CLOSE YOUR TERMINAL AND OPEN IT AGAIN TO USE BREW${NC}\n"
+exec zsh
+printf "${GREEN}FINISHED INSTALLING brew${NC}\n"
 # installing oh-my-zsh
 printf "${GREEN}INSTALLING oh-my-zsh${NC}\n"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" >&/dev/null
