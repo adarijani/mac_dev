@@ -29,7 +29,7 @@ cd .. >&/dev/null
 rm -rf ./mac_dec >&/dev/null >&/dev/null
 ```
 
-
+All the programs I use from vlc to pandoc:-)
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/backup.sh)"
 ```
