@@ -2,14 +2,20 @@
 
 # finding brew path
 BREW=(`where brew`)
+
 # brew update; brew upgrade; brew cleanup
-# >&/dev/null
+# >&/dev/null making stuff mute
 $BREW update 
 $BREW upgrade
 $BREW cleanup
+
 # saving all formula and casks in backup.sh and making it executable
-#/opt/homebrew/bin/brew list | awk '{print "echo installing "  $0 "\n" "brew install " $0 " >&/dev/null"}' >./backup.sh
-#chmod +x ./backup.sh >&/dev/null
+# finding awk path
+AWK=(`where awk`)
+$BREW list | $AWK '{print "echo installing "  $0 "\n" "brew install " $0 " >&/dev/null"}' >./backup.sh
+# finding chmod path
+CHMOD=(`where chmod`)
+$CHMOD +x ./backup.sh >&/dev/null
 
 # backing up dot files that exist in the home directory
 # backing up oh-my-zsh files
