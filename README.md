@@ -6,14 +6,14 @@
 - Install the oh-my-zsh zsh configuration framework.
 - Installing the zsh-syntax-highlighting as a oh-my-zsh plugin.
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/zero_to_daily_driver/main/bare_minimum.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/bare_minimum.sh)"
 ```
 ## Installing the necessary formula and casks
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/zero_to_daily_driver/main/backup.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/backup.sh)"
 ```
 
 ## Making the backup
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/zero_to_daily_driver/main/make_backup.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/make_backup.sh)"
 ```
