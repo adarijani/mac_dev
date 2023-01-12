@@ -1,6 +1,6 @@
-mv ./.vimrc $HOME/.vimrc
-mv ./.zshrc $HOME/.zshrc
-mv ./aliases.zsh $HOME/.oh-my-zsh/custom/aliases
-mv ./.kitty.conf $HOME/.kitty.conf
-mv ./.alacritty.yml $HOME/.alacritty.yml
-mv ./.tmux.conf $HOME/.tmux.conf
+cat ./.vimrc > $HOME/.vimrc
+cat ./.zshrc > $HOME/.zshrc
+cat ./aliases.zsh > $HOME/.oh-my-zsh/custom/aliases
+cat ./.kitty.conf > $HOME/.kitty.conf
+cat ./.alacritty.yml > $HOME/.alacritty.yml
+cat ./.tmux.conf > $HOME/.tmux.conf
