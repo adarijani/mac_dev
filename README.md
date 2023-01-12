@@ -18,9 +18,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 Config files in the right place
 ```sh
-brew install kitty
-brew install alacritty
-brew install tmux
+brew install kitty >&/dev/null
+brew install alacritty >&/dev/null
+brew install tmux >&/dev/null
 rm -rf ./mac_dec >&/dev/null
 git clone https://github.com/adarijani/mac_dev.git
 cd ./mac_dev
