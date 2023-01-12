@@ -18,7 +18,18 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 Config files in the right place
 ```sh
-git clone https://github.com/adarijani/mac_dev.git
-cd ./mac_dev
-./config.sh
+brew install kitty >&/dev/null
+brew install alacritty >&/dev/null
+brew install tmux >&/dev/null
+rm -rf ./mac_dec >&/dev/null
+git clone https://github.com/adarijani/mac_dev.git >&/dev/null
+cd ./mac_dev >&/dev/null
+./config.sh >&/dev/null
+cd .. >&/dev/null
+rm -rf ./mac_dec >&/dev/null >&/dev/null
+```
+
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/adarijani/mac_dev/main/backup.sh)"
 ```
