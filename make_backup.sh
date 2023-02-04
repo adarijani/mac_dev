@@ -1,13 +1,13 @@
 #!/bin/zsh
 
 # finding brew path
-BREW=(`where brew`)
+#BREW=(`where brew`)
 
 # brew update; brew upgrade; brew cleanup
 # >&/dev/null making stuff mute
-$BREW update 
-$BREW upgrade
-$BREW cleanup
+brew update 
+brew upgrade
+brew cleanup
 
 # saving all formula and casks in backup.sh and making it executable
 # finding awk path
