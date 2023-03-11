@@ -1,5 +1,11 @@
 # manjaro_dev
 
+wifi
+```sh
+pamac install linux515-broadcom-wl
+```
+then reboot:-)
+
 Install oh-my-zsh
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
